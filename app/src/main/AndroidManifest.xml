@@ -10,8 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnJetpack">
         <activity
+            android:name=".LazyColumnDemo"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".LearnActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
